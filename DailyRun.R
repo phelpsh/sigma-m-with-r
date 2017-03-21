@@ -3,7 +3,7 @@ library(quantmod)
 ########################################################
 # Makes a dynamic ticker array from google spreadsheet #
 ########################################################
-# removed
+# removed for privacy
 radio = read.table(abc, header = TRUE, sep = ",", stringsAsFactors = FALSE)
 boog <- c()
 for (u in 1:nrow(radio)) {
